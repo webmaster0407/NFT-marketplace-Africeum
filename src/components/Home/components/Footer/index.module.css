@@ -1,0 +1,193 @@
+/* --------------------------------- Default -------------------------------- */
+@media screen and (min-width: 0px) {
+  .footer {
+    @apply w-full;
+  }
+
+  .sponsBg {
+    @apply bg-[rgb(32,129,226)] flex justify-center;
+  }
+
+  .sponsors {
+    @apply grid grid-cols-2 max-w-[355px] px-[40px] py-[20px] items-center gap-[20px];
+  }
+
+  .sponsors a {
+    @apply px-[10px] py-[5px] cursor-pointer;
+  }
+
+  .box {
+    @apply stroke-[rgba(251,253,255,0.75)] fill-[none];
+  }
+
+  .sponsors a svg path {
+    @apply fill-[rgba(251,253,255,0.75)];
+  }
+
+  .sponsors a:hover svg .box {
+    @apply fill-[none];
+  }
+
+  .sponsors a:hover svg path {
+    @apply fill-[rgba(251,253,255,1)];
+  }
+
+  .info {
+    @apply px-[40px] py-[25px];
+    background:linear-gradient(transparent, rgb(117 204 245 / 75%))
+  }
+
+  .public {
+    @apply flex flex-col items-center gap-[25px] pb-[40px];
+  }
+
+  .loop {
+    @apply flex flex-col gap-6;
+  }
+
+  .desc {
+    @apply text-[white] text-center;
+  }
+
+  .sign {
+    @apply flex w-full gap-4;
+  }
+
+  .sign input {
+    @apply w-full px-[20px] rounded-[10px] outline-none py-[13px];
+  }
+
+  .sign button {
+    @apply w-[190px] bg-[rgb(32,129,226)] rounded-[10px] py-2 font-bold text-[white];
+  }
+
+  .sign button:hover {
+    filter: brightness(1.1);
+  }
+
+  .community {
+    @apply flex flex-col items-center gap-4;
+  }
+
+  .media {
+    @apply flex gap-[10px] flex-wrap justify-center;
+  }
+
+  .media a {
+    @apply w-[54px] max-h-[54px] block;
+  }
+
+  .media a button {
+    @apply bg-[rgb(32,129,226)] w-[54px] h-[54px] rounded-[10px] flex justify-center items-center;
+  }
+
+  .mail svg {
+    @apply stroke-[white] w-[30px] h-[30px];
+  }
+
+  .media a:hover button {
+    filter: brightness(1.1);
+    box-shadow: rgba(4, 17, 29, 0.25) 0px 0px 8px 0px;
+  }
+
+  .opensea {
+    @apply pt-[40px]  text-[white] flex flex-col pb-[30px];
+  }
+
+  .container {
+    @apply flex flex-col items-center text-center gap-[10px] text-[white];
+  }
+
+  .container img {
+    @apply w-[44px] h-[44px];
+  }
+
+  .container h1 {
+    @apply text-[20px] font-bold;
+  }
+
+  .links {
+    @apply grid grid-cols-2 gap-1 sm:grid-cols-4;
+  }
+
+  .linkcontainer {
+    @apply flex flex-col gap-4 text-center mt-[50px];
+  }
+
+  .linktitle {
+    @apply font-bold;
+  }
+
+  .linkcontainer a {
+    @apply text-[14px] cursor-pointer;
+  }
+
+  .linkcontainer a:hover {
+    @apply font-bold text-left;
+  }
+
+  .end {
+    @apply flex justify-between text-[white] text-[12px] pt-[20px] border-t border-gray-600;
+  }
+
+  .policy {
+    @apply flex gap-4;
+  }
+
+  .title {
+    @apply text-[20px] font-bold text-center  text-gray-800;
+  }
+}
+
+/* ------------------------------ Screen: 600px ----------------------------- */
+@media screen and (min-width: 600px) {
+  .sponsors {
+    @apply grid-cols-4 max-w-[720px];
+  }
+
+  .sponsors a {
+    @apply w-[126px];
+  }
+}
+
+/* ----------------------------- Screen: 1200px ----------------------------- */
+@media screen and (min-width: 1200px) {
+  .sponsors {
+    @apply grid-cols-8 max-w-[1280px] py-[30px];
+  }
+
+  .public {
+    @apply flex-row  justify-start gap-[100px] items-start;
+  }
+
+  .loop {
+    @apply items-start gap-[10px] w-[50%];
+  }
+
+  .desc {
+    @apply text-left;
+  }
+
+  .community {
+    @apply items-start;
+  }
+}
+
+/* ----------------------------- Screen: 1023px ----------------------------- */
+@media screen and (min-width: 1023px) {
+  .opensea {
+    @apply flex-row gap-[90px];
+  }
+
+  .container {
+    @apply w-[25%] items-start text-left;
+  }
+
+  .links {
+    @apply w-full justify-start gap-[5%] flex-nowrap;
+  }
+
+  .linkcontainer {
+    @apply text-left;
+  }
+}

@@ -1,0 +1,98 @@
+/* --------------------------------- Default -------------------------------- */
+@media screen and (min-width: 0px) {
+  .collection {
+    @apply mb-[60px] flex flex-col items-center;
+  }
+
+  .title {
+    @apply text-3xl font-bold text-center mb-[40px] ;
+  }
+
+  .content {
+    @apply grid grid-cols-1 gap-x-[20px];
+  }
+
+  .container {
+    @apply flex items-center p-4 gap-4 justify-between w-full cursor-pointer rounded-[10px] border-b border-[lightgrey];
+  }
+
+  .container >div:first-child {
+    @apply flex items-center gap-4 justify-between;
+  }
+
+  .container > div:first-child> p {
+    @apply w-[9px] 
+  }
+
+  .container:hover {
+    box-shadow: rgba(4, 17, 29, 0.5) 0px 0px 8px 0px;
+  }
+
+  .nft {
+    @apply flex gap-2;
+  }
+
+  .id{
+    @apply text-lg font-bold
+  }
+
+  .logo {
+    @apply w-[50px] h-[50px] rounded-full;
+  }
+
+  .eth {
+    @apply flex  items-center;
+  }
+
+  .eth p{
+    @apply text-sm text-gray-400
+  }
+  .priceETH {
+    @apply flex items-center justify-end font-bold text-lg text-gray-400 ;
+  }
+ .temp{
+   @apply contents
+ }
+  .button button {
+    @apply  text-[white] font-bold rounded-[10px] px-[25px] py-[10px];
+  }
+
+  .button:hover button {
+    @apply bg-[rgb(24,104,183)];
+  }
+
+  .ethsym {
+    @apply w-[14px] h-[14px];
+  }
+
+  .green {
+    @apply text-[rgb(52,199,123)] text-right text-sm
+  }
+
+  .red {
+    @apply text-[rgb(235,87,87)] text-right text-sm;
+  }
+}
+
+/* ----------------------------- Screen: 1200px ----------------------------- */
+@media screen and (min-width: 1200px) {
+  .content {
+    @apply grid-cols-3;
+  }
+  
+ .button{
+  position: absolute;
+  right: 10px
+}
+.temp{
+  @apply flex
+}
+}
+
+@media screen and (min-width: 1400px) {
+  .content {
+    @apply grid-cols-4;
+  }
+  
+
+}

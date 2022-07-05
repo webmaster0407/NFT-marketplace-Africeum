@@ -1,0 +1,49 @@
+/* --------------------------------- Default -------------------------------- */
+@media screen and (min-width: 0px) {
+  .container {
+    @apply flex flex-col items-center;
+  }
+
+  main {
+    @apply flex flex-col items-center overflow-hidden max-w-[100vw];
+  }
+  .card {
+    @apply flex flex-col items-center w-full cursor-pointer;
+  }
+  .splide {
+    @apply w-full;
+  }
+  .background {
+    @apply absolute w-full h-full bg-no-repeat bg-cover -z-10;
+    background-image: url("../../../../assets/images/africeummain.png");
+    background-position: center center;
+    filter: blur(8px);
+    width: 100vw;
+    height: 100vh;
+    mask: linear-gradient(rgb(255, 255, 255), transparent);
+    overflow-x: hidden;
+  }
+  
+  .pagination {
+    bottom: -2em;
+  }
+  .background1 {
+    @apply absolute w-full h-full bg-no-repeat bg-cover -z-10;
+    /* background-image: url("../../../../assets/images/africeummain.png"); */
+    background-position: center center;
+    filter: blur(8px);
+    width: 100vw;
+    height: 100vh;
+    background : linear-gradient(rgba(117, 204, 245, 0.726), transparent);
+    /* mask: linear-gradient(rgb(255,255, 255), transparent); */
+    overflow-x: hidden;
+  }
+
+  .arrows{
+    @apply top-[1rem] mx-[4rem]
+  }
+  
+  .arrows1{
+    @apply top-[10rem] mx-[4rem]
+  }
+}

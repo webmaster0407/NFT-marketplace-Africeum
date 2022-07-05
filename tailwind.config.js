@@ -1,0 +1,46 @@
+module.exports = {
+  content: [
+    "./src/components/**/*.{js,jsx,ts,tsx}",
+    "./src/pages/**/*.{js,jsx,ts,tsx}",
+  ],
+  darkMode : 'class',
+  theme: {
+    extend: {
+      boxShadow: {
+        'NFT': '0 0 8px 0 rgba(4, 17, 29, 0.25)',
+        'white': 'rgb(239 238 234) 2px 1000px 1px inset',
+        'black': 'rgb(0 0 0) 2px 1000px 1px inset',
+        'profile': 'rgb(231 229 222) 0px 5px 10px -2px',
+        inner: '0px -2px 10px #0000004D;',
+        navInner: 'inset 0px 0px 6px #AE3AF5, 0px 0px 6px #AE3AF5;',
+        btnShadow: '0px 30px 60px rgba(195, 192, 195, 0.1)',
+        nftShadow: '0 0 40px rgba(4, 6, 44, 0.5), 0 0 20px rgb(10 9 57 / 0.3), 0 0 15px rgb(10 9 57/ 0.2), 0 0 5px rgb(10 9 57 / 0.02);',
+        nftTxnShadow: '0px 30px 60px rgba(195, 192, 195, 0.2);',
+      },
+      colors: {
+        'Grey': 'rgb(112,122,131)',
+        'Dark': 'rgb(53,56,64)',
+        'Blue': 'rgb(32,129,226)',
+        'main-color':'#04062c',
+        'main-text': '#fff',
+        'special': 'linear-gradient(45deg, #f3ec78, #af4261)',
+        'archive1': 'rgba(57,255,20,0)',
+        'archive2': 'rgb(32,34,39,86)',
+        'primaryBlack': '#11110f',
+        'br-primary': '#080b0c',
+        'br-secondary': '#080a0c',
+        'br-tertiary': '#080b0c',
+        'br-bold': '#080b0c',
+        'br-dark': '#4B4B4B',
+        'br-gray': '#f5f5f5',
+        'br-gray-100': '#F8F7F8',
+        'br-gray-200': '#F0EFF0',
+        'br-dark-blue': '#3A395E',
+        "dark":"#080a0c",
+        "dark-10":"#1c232b",
+        "gray-500":"#f8f7f8"
+      },
+    },
+  },
+  plugins: [],
+}

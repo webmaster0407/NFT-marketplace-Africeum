@@ -1,0 +1,42 @@
+/* --------------------------------- Default -------------------------------- */
+@media screen and (min-width: 0px) {
+  .container {
+    @apply flex flex-col justify-center items-center w-full max-w-[1200px] font-bold mt-[80px];
+  }
+
+  .resources {
+    @apply text-center font-bold mb-16 text-2xl;
+  }
+
+  .splide {
+    @apply w-full;
+  }
+
+  .card {
+    @apply w-full flex flex-col items-center cursor-pointer;
+  }
+
+  .shadow {
+    @apply rounded-[10px];
+  }
+
+  .card:hover .shadow {
+    box-shadow: rgba(4, 17, 29, 0.5) 0px 0px 8px 0px;
+  }
+
+  .card img {
+    @apply w-[360px];
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .info {
+    @apply h-[90px] p-[20px] border border-[lightgrey] w-[360px];
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .pagination {
+    bottom: -1em;
+  }
+}

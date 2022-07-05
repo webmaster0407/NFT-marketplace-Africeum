@@ -1,0 +1,26 @@
+[{
+    "label" : "Arts",
+    "icon" : "https://opensea.io/static/images/icons/art-light.svg",
+    "dark-icon" : "https://opensea.io/static/images/icons/art-dark.svg",
+    "bannerURL" : "https://opensea.io/static/images/categories/art.png"
+},{
+    "label" : "Collectibles",
+    "icon" : "https://opensea.io/static/images/icons/collectibles-light.svg",
+    "dark-icon" : "https://opensea.io/static/images/icons/collectibles-dark.svg",
+    "bannerURL" : "https://opensea.io/static/images/categories/collectibles.png"
+},{
+    "label" : "Domain Names",
+    "icon" : "https://opensea.io/static/images/icons/domain-names-light.svg",
+    "dark-icon" : "https://opensea.io/static/images/icons/domain-names-dark.svg",
+    "bannerURL" : "https://opensea.io/static/images/categories/domain-names.png"
+},{
+    "label" : "Musics",
+    "icon" : "https://opensea.io/static/images/icons/music-light.svg",
+    "dark-icon" : "https://opensea.io/static/images/icons/music-dark.svg",
+    "bannerURL" : "https://opensea.io/static/images/categories/music.png"
+},{
+    "label" : "Sports",
+    "icon" : "https://opensea.io/static/images/icons/sports-light.svg",
+    "dark-icon" : "https://opensea.io/static/images/icons/sports-dark.svg",
+    "bannerURL" : "https://opensea.io/static/images/categories/sports.png"
+}]

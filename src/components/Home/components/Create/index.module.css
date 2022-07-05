@@ -1,0 +1,48 @@
+/* --------------------------------- Default -------------------------------- */
+@media screen and (min-width: 0px) {
+  .container {
+    @apply flex flex-col gap-[40px] mt-[90px] items-center px-[40px] text-center;
+  }
+
+  .create {
+    @apply text-[24px] font-bold text-center;
+  }
+
+  .content {
+    @apply grid gap-[30px];
+  }
+
+  .info {
+    @apply flex flex-col items-center gap-[15px];
+  }
+
+  .title {
+    @apply font-bold;
+  }
+
+  .para {
+    @apply text-[rgb(112,122,131)] w-[240px];
+  }
+
+  .para span {
+    @apply text-[rgb(32,129,226)] font-bold;
+  }
+}
+
+/* ------------------------------ Screen: 810px ----------------------------- */
+@media screen and (min-width: 810px) {
+  .content {
+    @apply grid-cols-2 max-w-[770px];
+  }
+
+  .para {
+    @apply w-auto;
+  }
+}
+
+/* ----------------------------- Screen: 1150px ----------------------------- */
+@media screen and (min-width: 1150px) {
+  .content {
+    @apply grid-cols-4 max-w-[1200px];
+  }
+}

@@ -1,0 +1,114 @@
+/* --------------------------------- Default -------------------------------- */
+@media screen and (min-width: 0px) {
+  .container {
+    /* @apply flex flex-col justify-center items-center w-full max-w-[1200px]; */
+    @apply px-[20px] flex flex-col items-center w-full max-w-[94vw] my-32 mb-0 relative;
+  }
+
+  .trending {
+    @apply text-center font-bold mb-16 text-3xl;
+  }
+
+  .splide {
+    @apply w-full;
+  }
+
+  .card {
+    @apply flex flex-col items-center cursor-pointer mx-[10px];
+  }
+
+  .nft {
+    @apply rounded-[10px];
+  }
+
+  .nft:hover {
+    box-shadow: rgba(4, 17, 29, 0.5) 0px 0px 8px 0px;
+  }
+
+  .image {
+    @apply w-[372px] h-[200px] overflow-hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .image img {
+    @apply w-full h-full;
+  }
+
+  .info {
+    @apply w-[372px] relative flex flex-col items-center gap-6 h-[236px] pt-8 px-[40px] border-x border-b border-[lightgrey];
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .pfp {
+    @apply absolute w-[50px] h-[50px] rounded-full top-[-25px] flex justify-center items-center;
+  }
+
+  .pfp img {
+    @apply w-[44px] h-[44px] rounded-full;
+  }
+
+  .credit {
+    @apply text-center;
+  }
+
+  .title {
+    @apply font-bold text-[rgb(4,17,29)] text-lg;
+  }
+
+  .by {
+    @apply text-[14px] text-[rgb(112,122,131)];
+  }
+
+  .name {
+    @apply text-[rgb(32,129,226)] hover:text-[rgb(24,104,183)] cursor-pointer;
+  }
+
+  .desc {
+    @apply text-[rgb(112,122,131)] text-center;
+  }
+
+  .blockchain {
+    @apply absolute left-[10px] bottom-[10px] cursor-pointer;
+  }
+
+  .pop {
+    @apply duration-200 absolute whitespace-nowrap top-[-160%] bg-[black] px-[15px] py-[5px] rounded-[10px];
+    display: none;
+  }
+
+  .pop p {
+    @apply text-[white] font-bold;
+  }
+
+  .blockchain:hover .pop {
+    @apply duration-200;
+    display: block;
+  }
+
+  .pagination {
+    bottom: -2em;
+  }
+  .button button {
+    @apply  text-[white] font-bold rounded-[10px] px-[25px] py-[10px];
+  }
+
+  .button:hover button {
+    @apply bg-[rgb(24,104,183)];
+  }
+  .temp{
+    @apply contents
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+  .button{
+   position: absolute;
+   right: 125px
+ }
+ .temp{
+   @apply flex
+ }
+ }

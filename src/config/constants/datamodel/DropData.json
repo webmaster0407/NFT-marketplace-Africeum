@@ -1,0 +1,33 @@
+[{
+    "id" : "cameo pass",
+    "type" : "image/jpeg",
+    "image" : "https://storage.opensea.io/static/promocards/cameo-promocard.jpeg",
+    "name" : "Cameo Pass",
+    "user" : {
+        "fullname" : "Art.Community.Events."
+    }
+},{
+    "id" : "water magic",
+    "type" : "image/jpeg",
+    "image" : "https://storage.opensea.io/static/promocards/watermagic-promocard.jpeg",
+    "name" : "water magic",
+    "user" : {
+        "fullname" : "follow the feathers to uncover old ghosts"
+    }
+},{
+    "id" : "The Metascapes",
+    "type" : "image/jpeg",
+    "image" : "https://storage.opensea.io/static/promocards/metascapes-promocard.jpeg",
+    "name" : "The Metascapes",
+    "user" : {
+        "fullname" : "Cath Simard x Ryan Newburn x lurie Belegurschi x Al"
+    }
+},{
+    "id" : "The Kiss",
+    "type" : "image/jpeg",
+    "image" : "https://storage.opensea.io/static/promocards/thekiss-promocard3.jpeg",
+    "name" : "The kiss",
+    "user" : {
+        "fullname" : "An art collection generated entirely by the smart contract code"
+    }
+}]

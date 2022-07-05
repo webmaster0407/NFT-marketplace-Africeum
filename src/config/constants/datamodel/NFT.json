@@ -1,0 +1,65 @@
+{
+  "name": "MTV Punks #3",
+  "description": "The MTV Punks Collective  is  a community of  crypto enthusiasts, NFT collectors, and most importantly Multivac supporters. Our initial collection consists of 10,000 unique digital collectibles living on the Multivac blockchain. Your MTV Punk NFT is your membership to the community and will give you access to surprise giveaways as well as insider access to our future collections.",
+  "image": "https://dedicated.mypinata.cloud/ipfs/QmRUh73DpBReUrMkwBv5Uv6v9xmtzUkL5ByDhwtLUVH2vJ/punk (3).png",
+  "dna": "e5266d98261a4602163c3dfabaf1b36fe50b1f4b",
+  "edition": 3,
+  "date": 1639325221205,
+  "creator": "MTV Punks Collective",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Light Orange"
+    },
+    {
+      "trait_type": "Base Female",
+      "value": "Female Mid"
+    },
+    {
+      "trait_type": "Blemishes",
+      "value": "None"
+    },
+    {
+      "trait_type": "Necklace",
+      "value": "Golden Necklace"
+    },
+    {
+      "trait_type": "Hat Female",
+      "value": "Straight Hair"
+    },
+    {
+      "trait_type": "Nose",
+      "value": "None"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Classic Shade Orange"
+    },
+    {
+      "trait_type": "Ear",
+      "value": "Earring"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Black Lipstick"
+    },
+    {
+      "trait_type": "Mouth Props",
+      "value": "None"
+    }
+  ],
+  "compiler": "Untai Studio",
+  "aution" : true,
+  "fixed" : false,
+  "price" : 100000,
+  "originPrice" : 10000,
+  "curBidder" : "0x000043420df034234032",
+  "timeremain" : 2312323,
+  "collection" : {
+    "id" : "Filenza by Tyler Hobbs",
+    "deployer" : "ArtBlocks_Admin",
+    "description" : "Fidenza by Tyle Hobbs - Art Blocks Curated",
+    "bannerURL" : "https://lh3.googleusercontent.com/M2nEf60xoxSn3sRz_YSe4phhBMUdx3_YhIR-OgVMjjFiNOSi3uujRPD9txCh3zWWC3yEHL3Jo2eg9YhjTtPxXGTRpSKhQnQfQvwaAQ=h200",
+    "logoURL" : "https://lh3.googleusercontent.com/M2nEf60xoxSn3sRz_YSe4phhBMUdx3_YhIR-OgVMjjFiNOSi3uujRPD9txCh3zWWC3yEHL3Jo2eg9YhjTtPxXGTRpSKhQnQfQvwaAQ=s100"
+}
+}

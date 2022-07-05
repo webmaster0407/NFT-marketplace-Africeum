@@ -1,0 +1,140 @@
+/* --------------------------------- Default -------------------------------- */
+@media screen and (min-width: 0px) {
+  .intro {
+    @apply relative flex flex-col gap-[30px] mt-[82px];
+  }
+
+   .main{
+     @apply w-full
+   }
+  .content {
+    @apply px-[20px] flex flex-col gap-[50px] items-center mt-[50px];
+  }
+
+  .discover {
+    @apply flex flex-col items-center text-center gap-4 max-w-[50vw];
+  }
+
+  .discover h1 {
+    @apply text-[32px] font-bold;
+  }
+
+  .discover p {
+    @apply text-[18px] text-[rgb(53,56,64)];
+  }
+
+  .buttons {
+    @apply z-0 flex gap-4;
+  }
+
+  .explore {
+    @apply bg-[rgb(32,129,226)] font-bold text-[white] rounded-[10px] w-[120px] py-[12px];
+    background: linear-gradient(127deg, rgba(32,129,226), rgba(255, 255, 255, 0) 70.71%),
+            linear-gradient(336deg, rgba(32,129,226), rgba(0,0,255,0) 70.71%);
+  }
+
+  .explore:hover {
+    @apply bg-[rgb(24,104,183)];
+    background-image: none;
+    box-shadow: rgba(4, 17, 29, 0.25) 0px 0px 8px 0px;
+  }
+
+  .create {
+    @apply font-bold bg-[white] rounded-[10px] py-[12px] w-[120px] text-[rgb(32,129,226)] border border-[rgb(32,129,226)];
+  }
+
+  .create:hover {
+    box-shadow: rgba(4, 17, 29, 0.25) 0px 0px 8px 0px;
+  }
+
+  .learn {
+    display: none;
+  }
+
+  .image {
+    @apply rounded-[30px] bg-[white] overflow-hidden w-fit cursor-pointer z-0;
+
+    box-shadow: rgba(4, 17, 29, 0.25) 0px 0px 10px 0px;
+  }
+
+  .image:hover {
+    box-shadow: rgba(4, 17, 29, 0.25) 0px 0px 50px 0px;
+  }
+
+  .image *{
+    padding : 0px!important
+  }
+
+  .image img {
+    /* @apply max-w-[355px]; */
+  }
+
+  .info {
+    @apply flex items-center justify-between p-4;
+  }
+
+  .credit {
+    @apply flex items-center gap-4;
+  }
+
+  .credit img {
+    @apply w-[40px] h-[40px] rounded-full;
+  }
+
+  .name p {
+    @apply font-bold text-[14px];
+  }
+
+  .learn {
+    @apply flex items-center gap-2 text-[rgb(32,129,226)] font-bold justify-center hover:text-[rgb(24,104,183)];
+  }
+
+  .learn:hover svg {
+    /* @apply fill-[rgb(24,104,183)]; */
+  }
+
+  .learn svg {
+    @apply fill-[rgb(32,129,226)];
+  }
+}
+
+/* ------------------------------ Screen: 993px ----------------------------- */
+@media screen and (min-width: 993px) {
+  .intro {
+    @apply px-[50px] relative mt-[70px];
+  }
+
+  .content {
+    @apply flex-row justify-center p-0;
+  }
+
+  .discover {
+    @apply relative items-start h-full text-left;
+  }
+
+  .discover p {
+    @apply text-[24px];
+  }
+
+  .explore,
+  .create {
+    @apply w-[167px];
+  }
+
+  .learn {
+    @apply flex font-bold text-[20px] mt-auto absolute bottom-[-120px] text-[rgb(32,129,226)] hover:text-[rgb(24,104,183)];
+  }
+
+  .learn:hover svg {
+    /* @apply fill-[rgb(24,104,183)]; */
+  }
+
+  .image {
+    flex-shrink: 0;
+  }
+
+  .image img {
+    @apply max-w-none max-h-[419px] w-full h-full;
+  }
+
+}

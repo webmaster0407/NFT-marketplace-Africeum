@@ -1,0 +1,68 @@
+/* --------------------------------- Default -------------------------------- */
+@media screen and (min-width: 0px) {
+  .container {
+    @apply px-[20px] flex flex-col items-center w-full max-w-[94vw] my-32 mt-0 relative;
+  }
+
+  .notable {
+    @apply text-center font-bold mb-12 text-3xl;
+  }
+
+  .splide {
+    @apply w-full;
+  }
+
+  .card {
+    @apply flex flex-col items-center w-full cursor-pointer;
+  }
+  .button button {
+    @apply  text-[white] font-bold rounded-[10px] px-[25px] py-[10px];
+  }
+
+  .button:hover button {
+    @apply bg-[rgb(24,104,183)];
+  }
+  .temp{
+    @apply contents
+  }
+  .shadow {
+    @apply rounded-[10px];
+  }
+
+  .card:hover .shadow {
+    box-shadow: rgba(4, 17, 29, 0.5) 0px 0px 8px 0px;
+  }
+
+  .card img {
+    @apply w-[338px];
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+
+  .info {
+    @apply w-[338px] h-[180px] flex flex-col gap-4 items-center text-center text-[gray] p-4 pb-8 border-x border-b border-[lightgrey];
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .info p {
+    @apply first:text-[20px] first:font-bold first:text-black even:text-[14px];
+  }
+
+  .live {
+    @apply mt-3 border border-[gray] px-4 py-1 rounded-[8px] text-sm font-bold;
+  }
+
+  .pagination {
+    bottom: -2em;
+  }
+}
+@media screen and (min-width: 1200px) {
+ .button{
+  position: absolute;
+  right: 125px
+}
+.temp{
+  @apply flex
+}
+}

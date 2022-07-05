@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+body > div:not(#__next-build-watcher) {
+  height: 100%;
+}
+
+button.is-active {
+  background: rgb(32, 129, 226) !important;
+}
+
+.splide__arrow {
+  background-color: white !important;
+  opacity: 100% !important;
+  width: 3.5rem !important;
+  height: 3.5rem !important;
+  border: 1px solid lightgrey !important;
+}
+
+.splide__arrow--prev {
+  left: -0.5rem !important;
+}
+
+.splide__arrow--next {
+  right: -0.5rem !important;
+}
+
+.splide__arrow svg {
+  width: 0.8em !important;
+  height: 0.8em !important;
+}
+
+#splide01-track,
+#splide02-track,
+#splide03-track {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
